@@ -1,0 +1,27 @@
+name: EloSMP
+version: 1.0.0
+main: com.elosmp.EloSMP
+description: "A unified Minecraft plugin with Elo ranking, leaderboard, passive potions, and superhero moves"
+author: EloSMP
+website: "https://github.com/plagahm-source/EloSMP-Plugin"
+
+commands:
+  elotop:
+    description: Shows the top players ranked by Elo
+    usage: /elotop [page]
+    aliases: [leaderboard, elolb]
+  elorank:
+    description: Shows your own or another player's rank and Elo
+    usage: /elorank [player name]
+    aliases: [elostats, rank]
+
+permissions:
+  elosmp.commands.elotop:
+    description: Allows players to use /elotop command
+    default: true
+  elosmp.commands.elorank:
+    description: Allows players to use /elorank command
+    default: true
+  elosmp.admin:
+    description: Admin permissions for EloSMP
+    default: op
