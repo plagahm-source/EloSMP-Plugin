@@ -1,0 +1,2 @@
+BUILD_JAR=true
+DEPLOY_ME=ready
