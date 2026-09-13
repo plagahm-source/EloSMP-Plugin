@@ -1,0 +1,2 @@
+# Trigger build
+This file triggers the GitHub Actions workflow to build the JAR.
